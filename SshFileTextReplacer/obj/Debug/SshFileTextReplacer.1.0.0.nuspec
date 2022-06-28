@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SshFileTextReplacer</id>
+    <version>1.0.0</version>
+    <authors>SshFileTextReplacer</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Microsoft.Extensions.Configuration" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="SSH.NET" version="2020.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net6.0/appsettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="/Users/flo/RiderProjects/SshFileTextReplacer/SshFileTextReplacer/bin/Debug/net6.0/SshFileTextReplacer.runtimeconfig.json" target="lib/net6.0/SshFileTextReplacer.runtimeconfig.json" />
+    <file src="/Users/flo/RiderProjects/SshFileTextReplacer/SshFileTextReplacer/bin/Debug/net6.0/SshFileTextReplacer.dll" target="lib/net6.0/SshFileTextReplacer.dll" />
+    <file src="/Users/flo/RiderProjects/SshFileTextReplacer/SshFileTextReplacer/appsettings.json" target="content/appsettings.json" />
+    <file src="/Users/flo/RiderProjects/SshFileTextReplacer/SshFileTextReplacer/appsettings.json" target="contentFiles/any/net6.0/appsettings.json" />
+  </files>
+</package>

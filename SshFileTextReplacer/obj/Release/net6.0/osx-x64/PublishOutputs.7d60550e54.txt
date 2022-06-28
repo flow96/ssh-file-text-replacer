@@ -1,0 +1,3 @@
+/Users/flo/RiderProjects/SshFileTextReplacer/SshFileTextReplacer/bin/Release/net6.0/osx-x64/publish/SshFileTextReplacer.pdb
+/Users/flo/RiderProjects/SshFileTextReplacer/SshFileTextReplacer/bin/Release/net6.0/osx-x64/publish/appsettings.json
+/Users/flo/RiderProjects/SshFileTextReplacer/SshFileTextReplacer/bin/Release/net6.0/osx-x64/publish/SshFileTextReplacer
