@@ -1,8 +1,8 @@
 # SSH file text replacer
 
 ## Installation
-- Download one of the <a href="https://github.com/flow96/ssh-file-text-replacer/releases">release versions</a>
-- Configure the appsettings.json to your needs
+- Download one of the <a href="https://github.com/flow96/ssh-file-text-replacer/releases">release versions</a> (e.g. v1.0-linux-x64.zip)
+- Configure the `appsettings.json` to your needs (included in the release zip file)
 - Run the SshFileTextReplacer executable
 
 ## Configuration
