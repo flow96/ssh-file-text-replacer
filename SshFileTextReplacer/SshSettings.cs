@@ -23,14 +23,15 @@ public class SshSettings
         CommandsToRunAfterwards = commands;
     }
 
-    public static SshSettings ParseFromConfig(IConfiguration configuration)
+    public static SshSettings? ParseFromConfig(IConfiguration configuration)
     {
         var settings = new SshSettings();
         configuration.Bind(settings);
         
         // Validate the parsed data
-        settings.Validate();
-        
+        if (!settings.Validate())
+            return null;
+
         return settings;
     }
 
